@@ -19,8 +19,10 @@ app.add_middleware(
 
 app.include_router(router)
 
-app.mount("/static", StaticFiles(directory="static"), name="static")
+import os
 
+os.makedirs("static", exist_ok=True)
+app.mount("/static", StaticFiles(directory="static"), name="static")
 
 @app.get("/")
 def home():
