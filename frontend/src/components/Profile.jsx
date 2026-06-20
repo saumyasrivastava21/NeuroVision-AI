@@ -31,15 +31,9 @@ export default function Profile() {
               </div>
               <div className="flex items-center text-slate-300">
                 <div className="p-2 bg-slate-800 rounded-lg mr-4 shrink-0">
-                  <Briefcase className="w-5 h-5 text-purple-400" />
+                  <Mail className="w-5 h-5 text-purple-400" />
                 </div>
-                <span><span className="font-semibold text-slate-200">Projects:</span> Brain Tumor Detection, Dental AI Pipeline, RoadGuard AI, KrishiMitram, LinkedIn Microservices Platform</span>
-              </div>
-              <div className="flex items-center text-slate-300">
-                <div className="p-2 bg-slate-800 rounded-lg mr-4 shrink-0">
-                  <Award className="w-5 h-5 text-yellow-400" />
-                </div>
-                <span><span className="font-semibold text-slate-200">Achievements:</span> IIT Kanpur & ICMR National Hackathon Winner, 500+ LeetCode problems, 1842 LeetCode rating</span>
+                <span><a href="mailto:saumyasrivastava@example.com" className="hover:text-blue-400 transition-colors">Contact Me</a></span>
               </div>
             </div>
           </div>
