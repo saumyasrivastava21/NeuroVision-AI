@@ -1,12 +1,14 @@
 fastapi
 uvicorn
 python-multipart
-ultralytics
-torch
-torchvision
-opencv-python
+opencv-python-headless
 numpy
 pillow
 matplotlib
 reportlab
 pydantic
+
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+ultralytics
